@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Mindful Productivity Dashboard",
+  "short_name": "MindfulTab",
+  "version": "1.0.0",
+  "description": "Turn every new tab into a calm, focused workspace with tasks, timers, quotes, and essential widgets.",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "assets/logo-16.png",
+    "48": "assets/logo-48.png",
+    "128": "assets/logo-128.png"
+  },
+  "action": {
+    "default_title": "MindfulTab"
+  },
+  "host_permissions": []
+}

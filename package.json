@@ -1,0 +1,30 @@
+{
+  "name": "mindful-newtab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mindful Productivity Dashboard — New Tab Extension",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node ./scripts/pack-extension.js",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.214",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.14",
+    "esbuild": "^0.19.2",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.4.8",
+    "typescript": "^5.4.2",
+    "vite": "^7.1.12"
+  }
+}

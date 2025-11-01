@@ -1,0 +1,5 @@
+[
+  { "id": "b1", "label": "Misty Forest", "src": "assets/backgrounds/forest.jpg" },
+  { "id": "b2", "label": "Ocean Calm", "src": "assets/backgrounds/ocean.jpg" },
+  { "id": "b3", "label": "Golden Field", "src": "assets/backgrounds/field.jpg" }
+]
